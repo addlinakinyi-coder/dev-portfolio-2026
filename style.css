@@ -13,3 +13,26 @@ nav {
     color: #333;           /* Keeps the text dark */
     display: block;        /* Makes the whole card clickable */
 }
+/* --- Technical Skills Badges --- */
+.skills {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #f4f4f4; 
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.skill-badge {
+    background: #333;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
