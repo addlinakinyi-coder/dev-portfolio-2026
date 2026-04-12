@@ -8,3 +8,8 @@ nav {
 .grid { display: grid; grid-template-columns: 1fr; gap: 20px; padding: 20px; }
 .card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; font-weight: bold; }
 @media (min-width: 600px) { .grid { grid-template-columns: 1fr 1fr 1fr; } }
+.card {
+    text-decoration: none; /* Removes the blue underline */
+    color: #333;           /* Keeps the text dark */
+    display: block;        /* Makes the whole card clickable */
+}
