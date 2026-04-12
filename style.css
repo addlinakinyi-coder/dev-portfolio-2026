@@ -41,3 +41,8 @@ nav {
     font-size: 0.85rem;
     font-weight: 600;
 }
+.skill-badge:hover {
+    background-color: #555; /* Slightly lighter on hover */
+    transform: scale(1.05);  /* Makes it pop out slightly */
+    transition: 0.3s;        /* Makes the change smooth */
+}
